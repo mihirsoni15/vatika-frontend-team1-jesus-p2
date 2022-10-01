@@ -5,6 +5,10 @@ import Blog from "../Blog/Blog";
 import AboutUs from "../About Us/AboutUs";
 import Plant from "../ProductDetails/Plant";
 import Cart from "../Cart/Cart";
+import Checkout from "../Checkout/Checkout";
+import OrderHistory from "../Order History/OrderHistory";
+import Login from "../Login/Login";
+import Signup from "../Signup/Signup";
 
 function Path() {
   return (
@@ -16,6 +20,10 @@ function Path() {
         <Route path="/aboutus" element={<AboutUs/>} />
         <Route path="/product/plant" element={<Plant/>} />
         <Route path="/cart" element={<Cart/>} />
+        <Route path="/checkout" element={<Checkout/>} />
+        <Route path="/orderhistory" element={<OrderHistory/>} />
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/signup" element={<Signup/>}/>
 
       </Routes>
     </div>

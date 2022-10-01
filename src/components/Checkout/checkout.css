@@ -1,0 +1,382 @@
+/* .checkout {
+    font-family: "Rajdhani", sans-serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  .checkout .side-by-side {
+    display: flex;
+  } */
+
+.steps {
+  width: 30rem;
+  margin-left: 15%;
+  margin-top: 1%;
+}
+
+.back {
+  margin-top: 2%;
+  margin-left: 2%;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: transparent;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.addressText {
+  position: relative;
+  top: 30px;
+  font-family: "Patrick Hand SC", cursive;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  font-size: 2.5rem;
+  font-size: 55px;
+}
+
+.addressCard {
+  height: 850px;
+}
+
+.line {
+  position: relative;
+  top: 25px;
+  width: 850px;
+  margin-left: 0px;
+}
+
+.kavishCard {
+  width: 300px;
+  height: 190px;
+  position: relative;
+  top: 40px;
+  border: 3px solid green;
+  border-radius: 20px;
+}
+
+.kavishText {
+  position: relative;
+  width: 141px;
+  height: 20px;
+  margin-left: 20px;
+  top: 20px;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.kavishAddress {
+  position: relative;
+  top: 20px;
+  color: black;
+  margin-left: 20px;
+}
+
+.locationcards .kavishButton {
+  position: relative;
+  top: 20px;
+  margin-left: 20px;
+  background-color: green;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.locationcards .mihirButton {
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+    background-color: gray;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+
+.editIcon {
+  position: relative;
+  top: 20px;
+  margin-left: 85px;
+  font-size: 25px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.deleteIcon {
+  /* display: flex; */
+  position: relative;
+  margin-left: 15px;
+  top: 20px;
+  font-size: 25px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.mihirCard {
+  width: 300px;
+  height: 190px;
+  position: relative;
+  top: -150px;
+  margin-left: 365px;
+  border: 3px solid lightgray;
+  border-radius: 20px;
+}
+
+.newaddressText {
+  position: relative;
+  top: -110px;
+  color: black;
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.checkoutForm {
+    position: relative;
+    top: -120px;
+    width: 350px;
+    border-color: black;
+    border-radius: 20px;
+}
+
+
+.leadDetails .firstName {
+    width: 350px;
+    position: relative;
+    top: 30px;
+    border-color: darkgray;
+    color: black;
+    /* font */
+    font-family: "Rajdhani";
+    border-radius: 20px;
+    border-radius: 10px;
+}
+
+.leadDetails .lastName {
+    width: 350px;
+    position: relative;
+    top: -33px;
+    left: 400px;
+    border-color: darkgray;
+    color: black;
+    border-radius: 10px;
+}
+
+.leadDetails .addressfld {
+    width: 750px;
+    position: relative;
+    top: -33px;
+    left: 0px;
+    border-color: darkgray;
+    color: black;
+    border-radius: 10px;
+}
+
+.leadDetails .aptfld {
+    width: 750px;
+    position: relative;
+    top: -33px;
+    left: 0px;
+    border-color: darkgray;
+    color: black;
+    border-radius: 10px;
+}
+
+.leadDetails .cityfld {
+    width: 241px;
+    position: relative;
+    top: -33px;
+    left: 0px;
+    border-color: darkgray;
+    border-radius: 10px;
+}
+
+.leadDetails .statefld {
+    width: 241px;
+    position: relative;
+    top: -97px;
+    left: 255px;
+    border-color: darkgray;
+    border-radius: 10px;
+}
+
+.leadDetails .pincodefld {
+    width: 241px;
+    position: relative;
+    top: -160px;
+    left: 510px;
+    border-color: darkgray;
+    border-radius: 10px;
+}
+
+.leadDetails .save-checkbox {
+    width: 341px;
+    position: relative;
+    top: -160px;
+    left: 0px;
+    border-color: darkgray;
+    border-radius: 10px;
+ }
+
+ .leadDetails .save-button {
+    width: 200px;
+    position: relative;
+    top: -160px;
+    left: -120px;
+    border-color: darkgray;
+    border-radius: 10px;
+    color: white;
+    background-color: gray;
+    /* display: block; */
+  }
+
+  .sidepanel {  
+position: relative;
+top: -1150px;
+    left: 1000px;
+    width: 551px;
+    height: 820px;
+    background-color: lightgray;
+    border-radius: 5px;
+  }
+
+  .sidepanel .labelText {
+    position: relative;
+   margin-left: 55px;
+   top: -30px;
+   font-weight: 501;
+  }
+
+  .sidepanel .radioicons {
+    position: relative;
+    width: 25px;
+    height: 25px;
+  }
+  .sidepanel .radioUPI {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+
+  .sidepanel .paymentText {
+    font-family: "Patrick Hand SC", cursive;
+    margin-left: 30px;
+    font-size: 55px;
+    font-weight: 500;
+    /* bottom: 100px; */
+    /* margin-top: 30px; */
+  }
+
+  .sidepanel .coin-image{
+    font-size: small;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    top: -20px;
+    color: black;
+  }
+
+  .sidepanel .balanceText {
+    color: gray;
+    font-weight: 505;
+  }
+
+  .sidepanel .balanceText .amount{
+    color: black;
+    font-weight: 905;
+  }
+
+  .sidepanel .balanceText .amount .right-tick {
+    width: 30px;
+    height: 20px;
+  }
+
+  .sidepanel .paymentmode-text {
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 505;
+  }
+
+  .sidepanel .radioUpi {
+    left: -235px;
+  }
+
+  .sidepanel .horizontalLine {
+    width: 450px;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 30px;
+  }
+
+  .totalText {
+    position: relative;
+    margin-left: 30px;
+    top: 15px;
+    font-weight: 501;
+  }
+
+  .totalamountText {
+    position: relative;
+    margin-left: 400px;
+    top: -30px;
+    font-weight: 501;
+  }
+
+  .discountText {
+    position: relative;
+    margin-left: 30px;
+    top: -25px;
+    font-weight: 500;
+  }
+
+  .discountamountText {
+    position: relative;
+    margin-left: 395px;
+    top: -72px;
+    font-weight: 500;
+  }
+
+  .sidepanel .horizontalLine2 {
+    /* top: 0px; */
+    width: 450px;
+    top: -50px;
+    position: relative;
+    margin-left: 30px;
+    /* top: 20px; */
+  }
+
+ .sidepanel .finalAmount {
+    position: relative;
+    margin-left: 385px;
+    top: -35px;
+    font-weight: 600;
+font-size: 32px;
+line-height: 41px;
+letter-spacing: 0.04em;
+color: green;
+ }
+
+ .sidepanel .proceedButton {
+    position: relative;
+    background-color: green;
+    color: white;
+    width: 300px;
+height: 60px;
+margin-left: 125px;
+top: -25px;
+border: 1px solid lightgray;
+border-radius: 10px;
+letter-spacing: 0.1em;
+font-size: 30px;
+ }
+
+ .sidepanel .protectedText {
+    font-size: 18px;
+    position: relative;
+    margin-left: 5px;
+ }
